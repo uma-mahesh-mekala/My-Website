@@ -24,13 +24,9 @@ nav li{
     margin-right : 20px;
 }
 nav a{
-    border: 3px;
-    border-color: rgb(241, 157, 234);
-    border-style: solid;
     text-decoration: none;
     border-radius: 10px;
-    color: rgb(255, 7, 7);
-    padding:5px;
+    padding:10px;
     background-color: rgb(187, 235, 236);
 }
 main{
