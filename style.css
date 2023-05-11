@@ -1,7 +1,6 @@
 header{
     background-color: #F7C8E0;
     text-align: center;
-    height:70px;
     padding: 5px;
     border-radius: 20px;
 }
@@ -12,6 +11,7 @@ h1{
 
 .container{
     display: flex;
+    flex-wrap:wrap;
     margin-top: 20px;
     width:70%;
     margin-left: 15%;
@@ -37,7 +37,8 @@ main{
     background-color: antiquewhite;
     padding: 10px;
     border-radius: 20px;
-    margin-top: 30px;;
+    margin-top: 30px;
+
 }
 footer{
     border:10px solid white;
@@ -58,11 +59,13 @@ footer{
         margin-left: 0px;
         
     }
-    footer{
-        height:80px;
-        text-align: center;
+    main{
+        margin-top:50px;
     }
-    p{
+    main>p{
         padding: 10px;;
+    }
+    footer{
+        padding:10px;
     }
 }
